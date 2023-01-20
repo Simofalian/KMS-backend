@@ -1,0 +1,9 @@
+/node_modules
+/config/keys_dev.js
+/client/skytrappers
+
+package-lock.json
+*.env
+.cache
+.rar
+.zip
