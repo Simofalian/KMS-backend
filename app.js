@@ -32,7 +32,7 @@ const limiter = rateLimit({
 app.use("/api", limiter);
 //allow access control
 app.use(function (req, res, next) {
-  res.header("Access-Control-Allow-Origin", "http://localhost:3000","https://kmsfront.onrender.com"),
+  res.header("Access-Control-Allow-Origin", "https://kmsfront.onrender.com"),
     res.header("Access-Control-Allow-Credentials", true);
   res.header(
     "Access-Control_Allow-Header",
